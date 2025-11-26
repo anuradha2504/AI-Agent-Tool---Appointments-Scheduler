@@ -19,7 +19,6 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 
 
 ## 🧱 System Architecture
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/915a2064-ea25-4c9e-a044-494545432aba" />
 <img width="1024" height="1024" alt="image" src="https://github.com/anuradha2504/AI-Agent-Tool---Appointments-Scheduler/blob/main/System_Architecture.png" />
 
 **Components & Purpose**
@@ -118,19 +117,20 @@ Patient_Name | Date_and_Time | Phone_Number | Appointment_Status
 | **Cancel**     | Event removed + row marked Cancelled                                   |
 
 ----------------
-🚀 Future Enhancements (Roadmap)
-Feature	Status
-WhatsApp Integration	⏳ Planned
-Voice Support	⏳ Planned
-Doctor Mobile App	🔍 Research
-Reminder Notifications (SMS/WA)	🚧 In-Progress
-Auto-Invoicing & EMR	Future
--------------------
+
+| Feature                         | Status         |
+| ------------------------------- | -------------- |
+| WhatsApp Integration            | ⏳ Planned      |
+| Voice Support                   | ⏳ Planned      |
+| Doctor Mobile App               | 🔍 Research    |
+| Reminder Notifications (SMS/WA) | 🚧 In-Progress |
+| Auto-Invoicing & EMR            | Future         |
+
 
 🙌 Credits
 
 This Agentic AI system is developed for Dr. Hakim as an automated solution for real-time appointment workflow management.
----------------
+
 ## 📄 License
 
 This project is licensed under the **MIT License**.
