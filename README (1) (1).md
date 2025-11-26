@@ -31,6 +31,7 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 
 ## 🧱 System Architecture
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/915a2064-ea25-4c9e-a044-494545432aba" />
+<img width="1024" height="1024" alt="image" src="https://github.com/anuradha2504/AI-Agent-Tool---Appointments-Scheduler/upload/main" />
 
 **Components & Purpose**
 
@@ -59,22 +60,8 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 
 ---
 
-📅 Scheduling Logic
 
-✔ Doctor Schedule:
-
-Mon–Fri: 9:00 AM → 8:00 PM
-Sat: 9:00 AM → 1:00 PM
-
-Sun: Closed ❌
-✔ Consultation Duration → 1 Hour
-✔ Break Between Appointments → 15 min
-✔ Time Slot Validation Every Request
-✔ No booking without final user confirmation
-
-⛔ Prevents double booking by validating existing events in Calendar.
-
-## 💾 Required Google Sheet Format
+## 💾 Required Google Sheet Format - Name - Apponitment
 
 Your Google Sheet must contain the following **exact column headers**:
 
@@ -82,7 +69,7 @@ Your Google Sheet must contain the following **exact column headers**:
 Patient_Name | Date_and_Time | Phone_Number | Appointment_Status 
 ```
 
-**Sheet Tab Name:** `Sheet1`
+**Sheet Tab Name:** `Appointment`
 
 ---
 
