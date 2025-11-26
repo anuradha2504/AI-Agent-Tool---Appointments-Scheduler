@@ -1,8 +1,10 @@
 # Telegram Appointment Scheduler
+🏥 # **Doctor Automated Appointment Scheduling AI**
+**Intelligent Telegram Bot 🚀 | Real-time Sync with Google Calendar + Google Sheets**
 
-This repository contains an automated appointment scheduling system that allows patients to **book, reschedule, and cancel appointments directly through Telegram**, while keeping **Google Calendar** and **Google Sheets** fully synchronized in real-time.
+This project is an Agentic AI–powered appointment scheduling system designed for healthcare professionals. Patients can **book, reschedule, or cancel appointments easily via Telegram,** while the system ensures real-time synchronization with **Google Calendar and Google Sheets.**
 
-> **Live Bot:** `vaidyabot` (@akvaidya_bot)
+> **Live Bot:** ` t.me/Anu_Doctor_bot. 
 > **Demo:** Demo video (placeholder)
 
 ---
@@ -15,13 +17,16 @@ This repository contains an automated appointment scheduling system that allows 
 | **Reschedule Appointment** | Creates new event + deletes old one | Old row → *Rescheduled*, new row appended |
 | **Cancel Appointment**     | Deletes event                       | Row marked *Cancelled*                    |
 
-### Additional Highlights
-
-* Prevents double-booking
-* Enforces clinic operating hours
-* Maintains complete appointment history
-* Understands natural language through Telegram chat
-
+| Feature                    | Description                                       |
+| -------------------------- | ------------------------------------------------- |
+| 🧠 AI Appointment Agent    | Handles natural-language scheduling conversations |
+| 🔁 Real-time Sync          | Updates Google Calendar + Sheets instantly        |
+| 📲 Telegram Integration    | Patients chat directly from their phones          |
+| ✔ Availability Validation  | Always checks office timings & booked slots       |
+| ⏱ Auto Slot Management     | 1 hr consultation + 15 min break logic applied    |
+| 🔄 Modify / Cancel Support | Frees slots & updates records                     |
+| 📑 Patient Data Logging    | Saves name, phone & appointment details in Sheets |
+| 🤝 Guided Conversation     | Confirms before booking anything                  |
 ---
 
 ## 🧱 System Architecture
@@ -54,12 +59,27 @@ This repository contains an automated appointment scheduling system that allows 
 
 ---
 
+📅 Scheduling Logic
+
+✔ Doctor Schedule:
+
+Mon–Fri: 9:00 AM → 8:00 PM
+Sat: 9:00 AM → 1:00 PM
+
+Sun: Closed ❌
+✔ Consultation Duration → 1 Hour
+✔ Break Between Appointments → 15 min
+✔ Time Slot Validation Every Request
+✔ No booking without final user confirmation
+
+⛔ Prevents double booking by validating existing events in Calendar.
+
 ## 💾 Required Google Sheet Format
 
 Your Google Sheet must contain the following **exact column headers**:
 
 ```
-Patient_Name | Date_and_Time | Phone_Number | Appointment_Status | Event_ID
+Patient_Name | Date_and_Time | Phone_Number | Appointment_Status 
 ```
 
 **Sheet Tab Name:** `Sheet1`
