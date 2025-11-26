@@ -25,7 +25,7 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 
 | Component                              | Purpose                                     |
 | -------------------------------------- | ------------------------------------------- |
-| **Telegram Bot → @akvaidya_bot**       | Patient-facing conversation                 |
+| **Telegram Bot → @Appointment_bot**    | Patient-facing conversation                 |
 | **n8n Workflow (AI Agent)**            | Coordinates scheduling logic and tool calls |
 | **Google Calendar**                    | Stores booked appointments and availability |
 | **Google Sheets**                      | Permanent appointment ledger                |
@@ -117,7 +117,7 @@ Patient_Name | Date_and_Time | Phone_Number | Appointment_Status
 | **Cancel**     | Event removed + row marked Cancelled                                   |
 
 ----------------
-
+🚀 **Future Enhancements (Roadmap)**
 | Feature                         | Status         |
 | ------------------------------- | -------------- |
 | WhatsApp Integration            | ⏳ Planned      |
@@ -134,7 +134,7 @@ This Agentic AI system is developed for Dr. Hakim as an automated solution for r
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-------
+
 ## 🤝 Contributions
 
 Contributions, PRs, and issues are **welcome**!
