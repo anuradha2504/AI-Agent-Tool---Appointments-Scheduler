@@ -25,7 +25,7 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 
 | Component                              | Purpose                                     |
 | -------------------------------------- | ------------------------------------------- |
-| **Telegram Bot → @Appointment_bot**    | Patient-facing conversation                 |
+| **Telegram Bot → @Anu_Doctor_bot**    | Patient-facing conversation                 |
 | **n8n Workflow (AI Agent)**            | Coordinates scheduling logic and tool calls |
 | **Google Calendar**                    | Stores booked appointments and availability |
 | **Google Sheets**                      | Permanent appointment ledger                |
