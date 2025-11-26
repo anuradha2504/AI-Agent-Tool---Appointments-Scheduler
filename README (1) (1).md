@@ -17,21 +17,10 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 | **Reschedule Appointment** | Creates new event + deletes old one | Old row → *Rescheduled*, new row appended |
 | **Cancel Appointment**     | Deletes event                       | Row marked *Cancelled*                    |
 
-| Feature                    | Description                                       |
-| -------------------------- | ------------------------------------------------- |
-| 🧠 AI Appointment Agent    | Handles natural-language scheduling conversations |
-| 🔁 Real-time Sync          | Updates Google Calendar + Sheets instantly        |
-| 📲 Telegram Integration    | Patients chat directly from their phones          |
-| ✔ Availability Validation  | Always checks office timings & booked slots       |
-| ⏱ Auto Slot Management     | 1 hr consultation + 15 min break logic applied    |
-| 🔄 Modify / Cancel Support | Frees slots & updates records                     |
-| 📑 Patient Data Logging    | Saves name, phone & appointment details in Sheets |
-| 🤝 Guided Conversation     | Confirms before booking anything                  |
----
 
 ## 🧱 System Architecture
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/915a2064-ea25-4c9e-a044-494545432aba" />
-<img width="1024" height="1024" alt="image" src="https://github.com/anuradha2504/AI-Agent-Tool---Appointments-Scheduler/upload/main" />
+<img width="1024" height="1024" alt="image" src="https://github.com/anuradha2504/AI-Agent-Tool---Appointments-Scheduler/blob/main/System_Architecture.png" />
 
 **Components & Purpose**
 
@@ -42,8 +31,6 @@ This project is an Agentic AI–powered appointment scheduling system designed f
 | **Google Calendar**                    | Stores booked appointments and availability |
 | **Google Sheets**                      | Permanent appointment ledger                |
 | **OpenAI GPT Model**                   | Understands user messages and context       |
-
-![Architecture Diagram](./images/architecture.png)
 
 ---
 
@@ -98,8 +85,7 @@ Patient_Name | Date_and_Time | Phone_Number | Appointment_Status
 
 ### 5) Import Workflow
 
-* Go to **n8n → Workflows → Import** and select the JSON file located at `/workflow/appointment-workflow.json`
-
+* Go to **https://github.com/anuradha2504/AI-Agent-Tool---Appointments-Scheduler and  Import** and select the JSON file.
 ---
 
 ## 🔁 Workflow Logic
@@ -131,14 +117,24 @@ Patient_Name | Date_and_Time | Phone_Number | Appointment_Status
 | **Reschedule** | Old event deleted + row marked Rescheduled + new event + new row added |
 | **Cancel**     | Event removed + row marked Cancelled                                   |
 
----
+----------------
+🚀 Future Enhancements (Roadmap)
+Feature	Status
+WhatsApp Integration	⏳ Planned
+Voice Support	⏳ Planned
+Doctor Mobile App	🔍 Research
+Reminder Notifications (SMS/WA)	🚧 In-Progress
+Auto-Invoicing & EMR	Future
+-------------------
 
+🙌 Credits
+
+This Agentic AI system is developed for Dr. Hakim as an automated solution for real-time appointment workflow management.
+---------------
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
----
-
+------
 ## 🤝 Contributions
 
 Contributions, PRs, and issues are **welcome**!
